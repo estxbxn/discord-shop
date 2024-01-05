@@ -8,6 +8,7 @@ function Banner({ icon, subTitle, bannerUrl }: BannerProps) {
       className={styles.banner}
       style={{
         background: `url(${bannerUrl}) 0% 0% / cover border-box border-box`,
+        outlineColor: `rgba(0, 57, 77, 0.4)`,
       }}
     >
       <Image
