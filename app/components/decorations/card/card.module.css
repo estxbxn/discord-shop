@@ -1,0 +1,40 @@
+.card {
+  border-radius: 32px;
+  border: 2px solid transparent;
+  grid-column: auto;
+  min-width: 100%;
+  transition: transform 1s, box-shadow.5s;
+  padding: 40px 32px 32px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+
+  background: linear-gradient(rgb(0, 69, 92), rgb(0, 42, 56)) border-box
+    border-box;
+  border-color: rgba(0, 57, 77, 0.4);
+  box-shadow: none;
+}
+
+.card .cardContent {
+  margin-top: 32px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card .cardContent .productName {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.card .cardContent .productDetailsWrapper {
+  display: flex;
+  position: relative;
+  flex: 1;
+}

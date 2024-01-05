@@ -1,0 +1,69 @@
+.heroBanner {
+  position: relative;
+  width: 100%;
+  min-width: 597px;
+  height: 300px;
+  margin-top: 24px;
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.heroDescription {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 58px;
+  width: 480px;
+}
+
+.heroTitle {
+  font-size: 44px;
+  line-height: 42px;
+  font-weight: 800;
+}
+
+.heroSubTitle {
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.heroArts {
+  position: absolute;
+  top: 0;
+  left: 510px;
+}
+
+.heroArtsGrid {
+  position: absolute;
+  top: -77px;
+  left: 0;
+  width: 402px;
+  height: 484px;
+}
+
+.heroArtsGridSmol {
+  position: absolute;
+  left: 452px;
+  top: 116px;
+  width: 85px;
+  height: 60px;
+}
+
+.heroArtsGridMedium {
+  position: absolute;
+  left: 405px;
+  top: 206px;
+  width: 178px;
+  height: 106px;
+}
+
+.heroArtsHand {
+  position: absolute;
+  top: 27px;
+  left: 264px;
+  width: 265px;
+  height: 238px;
+}

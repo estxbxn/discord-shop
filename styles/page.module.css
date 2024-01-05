@@ -1,0 +1,11 @@
+.main {
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 32px 32px;
+  box-sizing: border-box;
+  margin: 44px 0 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+}

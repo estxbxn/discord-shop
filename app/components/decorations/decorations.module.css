@@ -1,0 +1,22 @@
+.categories {
+}
+
+.categories .categoryWrapper {
+  margin-top: 40px;
+}
+
+.categories .categoryWrapper .categoryTitle {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.categories .categoryWrapper .cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+  grid-gap: 24px;
+  overflow: visible;
+}

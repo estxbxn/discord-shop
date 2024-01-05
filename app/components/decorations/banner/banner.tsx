@@ -1,0 +1,25 @@
+import Image from "next/image";
+import styles from "./banner.module.css";
+import { BannerProps } from "./types";
+
+function Banner({ icon, subTitle, bannerUrl }: BannerProps) {
+  return (
+    <div
+      className={styles.banner}
+      style={{
+        background: `url(${bannerUrl}) 0% 0% / cover border-box border-box`,
+      }}
+    >
+      <Image
+        className={styles.heroArtsGridSmol}
+        alt="Category Banner"
+        src={icon.categoryIcon}
+        width={icon.width}
+        height={icon.height}
+      />
+      <div className="subtitle">{subTitle}</div>
+    </div>
+  );
+}
+
+export default Banner;
