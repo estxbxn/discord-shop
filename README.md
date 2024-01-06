@@ -13,6 +13,7 @@
 
 ## To do
 
+- [ ] Differents cards for avatars and profile effecs
 - [ ] Create modal window
 - [ ] Add object in shop from json file
 - [ ] Create all sections from discord shop
