@@ -12,7 +12,6 @@ function Banner({ icon, subTitle, bannerUrl }: BannerProps) {
       }}
     >
       <Image
-        className={styles.heroArtsGridSmol}
         alt="Category Banner"
         src={icon.categoryIcon}
         width={icon.width}
