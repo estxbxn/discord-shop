@@ -1,6 +1,6 @@
 export type CardIcon = {
   coverImage: string;
-  animatedIcon?: string;
+  animatedIcon: string;
 };
 
 export type CardProps = {
