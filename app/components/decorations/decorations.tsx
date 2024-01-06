@@ -1,4 +1,4 @@
-import DecorationBanner from "./banner/banner";
+import Banner from "./banner/banner";
 import Card from "./card/card";
 import styles from "./decorations.module.css";
 
@@ -6,7 +6,7 @@ function Decorations() {
   return (
     <div className={styles.categories}>
       <div className={styles.categoryWrapper}>
-        <DecorationBanner
+        <Banner
           icon={{
             categoryIcon: "/assets/shop/categories/monster/icon.png",
             width: 367,
