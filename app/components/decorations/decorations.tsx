@@ -21,7 +21,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
@@ -30,7 +30,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
@@ -39,7 +39,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
@@ -48,7 +48,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
@@ -57,7 +57,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
@@ -66,7 +66,7 @@ function Decorations() {
             <Card
               icon={{
                 coverImage: "/assets/shop/avatars/lasermi/cover.png",
-                animatedIcon: "/assets/shop/avatars/lasermi/animated.png",
+                animatedIcon: "/assets/shop/avatars/lasermi/animated.gif",
               }}
               name="Beamchop"
               description="Oh, il est tellement mign- AHHH"
