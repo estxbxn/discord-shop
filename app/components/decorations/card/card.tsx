@@ -21,6 +21,8 @@ function Card({ icon, name, description, price }: CardProps) {
   return (
     <div
       className={styles.card}
+      onMouseEnter={onHover}
+      onMouseLeave={cancelHover}
       style={{
         background: `linear-gradient(rgb(0, 69, 92), rgb(0, 42, 56)) border-box border-box;`,
         borderColor: `rgba(0, 57, 77, 0.4);`,
@@ -28,8 +30,6 @@ function Card({ icon, name, description, price }: CardProps) {
       }}
     >
       <div
-        onMouseEnter={onHover}
-        onMouseLeave={cancelHover}
         className={styles.iconWrapper}
         role="img"
         aria-label="Avatar"
